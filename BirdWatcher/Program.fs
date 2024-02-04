@@ -1,5 +1,7 @@
 ﻿module BirdWatcher
 
+// https://exercism.org/tracks/fsharp/exercises/bird-watcher
+
 let lastWeek: int [] = [| 0; 2; 5; 3; 7; 8; 4 |]
 
 let yesterday (counts: int []) : int = counts[counts.Length - 2]

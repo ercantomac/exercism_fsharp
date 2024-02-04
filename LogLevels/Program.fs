@@ -1,5 +1,7 @@
 ﻿module LogLevels
 
+// https://exercism.org/tracks/fsharp/exercises/log-levels
+
 let message (logLine: string) : string = ((logLine.Split ':')[1]).Trim()
 
 let logLevel (logLine: string) : string =
